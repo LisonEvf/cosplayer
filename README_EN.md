@@ -11,7 +11,7 @@ Cosplayer is an AI agent skill that enables **dynamic role switching** for solvi
 
 ### Core Philosophy
 
-**不预设。按需创建。** (Don't preset. Create on demand.)
+**Don't preset. Create on demand.**
 
 - ❌ Maintaining fixed role lists
 - ✅ Creating ad-hoc roles based on actual problems
@@ -102,26 +102,26 @@ clawhub install cosplayer
 **Created Role**: "Privacy Compliance Specialist"
 
 ```
-【角色切换：隐私合规专家】
+【Role Switch: Privacy Compliance Specialist】
 
-**CCPA合规框架**:
+**CCPA Compliance Framework**:
 
-1. **数据清单**
-   - 识别所有收集的个人信息
-   - 标注数据来源和用途
+1. **Data Inventory**
+   - Identify all personal information collected
+   - Document data sources and purposes
 
-2. **用户权利实现**
-   - 访问权: 提供数据导出
-   - 删除权: 实现数据删除流程
-   - 选择退出权: "Do Not Sell"机制
+2. **User Rights Implementation**
+   - Access right: Provide data export
+   - Deletion right: Implement data deletion flow
+   - Opt-out right: "Do Not Sell" mechanism
 
-3. **技术措施**
-   - Cookie同意管理
-   - 隐私政策更新
+3. **Technical Measures**
+   - Cookie consent management
+   - Privacy policy update
 
-【角色恢复：决策者】
+【Return to Base Role】
 
-第一步：做数据清单，第二步：咨询律师确认细节
+Step 1: Create data inventory, Step 2: Consult lawyer for details
 ```
 
 ### Example 2: Simple Question (No Switch)
@@ -148,26 +148,26 @@ print(data)
 **Created Role**: "Regional Strategy Lead"
 
 ```
-【角色切换：区域战略负责人】
+【Role Switch: Regional Strategy Lead】
 
-**东南亚市场评估**:
+**Southeast Asia Market Assessment**:
 
-1. **市场规模**
-   - TAM: 6.5亿人口
-   - 互联网渗透率: 75%+
+1. **Market Size**
+   - TAM: 650M population
+   - Internet penetration: 75%+
 
-2. **竞争格局**
-   - Singapore: 成熟但竞争激烈
-   - Indonesia: 增长最快
-   - Vietnam: 蓝海但基建弱
+2. **Competitive Landscape**
+   - Singapore: Mature but competitive
+   - Indonesia: Fastest growing
+   - Vietnam: Blue ocean but weak infrastructure
 
-3. **进入策略**
-   - Phase 1: Singapore (测试)
-   - Phase 2: Indonesia (规模)
+3. **Entry Strategy**
+   - Phase 1: Singapore (Test market)
+   - Phase 2: Indonesia (Scale)
 
-【角色恢复：决策者】
+【Return to Base Role】
 
-建议先做新加坡MVP验证，3个月后决定
+Recommend Singapore MVP validation first, decide in 3 months
 ```
 
 ## How It Works
@@ -205,11 +205,11 @@ Solve directly
 
 3. **Switch format**
    ```
-   【角色切换：{Role Name}】
+   【Role Switch: {Role Name}】
 
    [Apply role's perspective and frameworks]
 
-   【角色恢复：决策者】
+   【Return to Base Role】
    ```
 
 4. **Provide expert solution**
@@ -234,7 +234,8 @@ cosplayer/
 │       ├── Anti-patterns
 │       └── Role library (optional)
 ├── clawhub.json (442B)
-├── README.md
+├── README.md (Chinese)
+├── README_EN.md (English)
 └── LICENSE
 ```
 
